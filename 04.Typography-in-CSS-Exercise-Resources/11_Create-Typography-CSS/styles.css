@@ -1,0 +1,73 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 3em;
+}
+
+p {
+    padding: 1em 0;
+}
+
+hr {
+    margin: 2.5em 0;
+}
+
+ul {
+    margin: 1.15em 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(204, 203, 203);
+    text-align: left;
+}
+
+th, td {
+    padding: 0.5em;
+}
+
+table, th, td {
+    border: solid rgb(204, 203, 203) 1px;
+}
+
+blockquote {
+    border-left: rgb(221,221,221) solid;
+    font-style: italic;
+    
+}
+
+blockquote p {
+    margin: 0 0 0 40px;
+}
+
+cite {
+    display: block;
+    text-align: right;
+}
+
+cite::before {
+    content: "- ";
+}
+ 
+.headings {
+    font-family: Georgia, serif;
+}
+
+.ul-squere {
+    list-style-type: square;
+    
+}
+
+.ul-disc {
+    list-style-type: disc;
+}
+
+.ul-circle {
+    list-style-type: circle;
+}
+

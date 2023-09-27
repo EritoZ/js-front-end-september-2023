@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous:regular);
+@import url('https://fonts.googleapis.com/css2?family=Orienta&display=swap');
+
+body {
+    background-color: darkred;
+}
+
+h1 {
+    font-family: Rightous, cursive;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #DFBF84;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-family: Orienta, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f6f6f6;
+    text-align: center;
+}
+
+/*    • <body>:
+        ◦ Background color: darkred
+    • <h1>:
+        ◦ Font: 'Righteous'
+    • Use CSS import: @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+        ◦ Generic Font: cursive
+        ◦ Font size: 45px
+        ◦ Font weight: normal
+        ◦ Height of the line: 60px
+        ◦ Text color: #fff
+        ◦ All characters to be UPPERCASE
+        ◦ Align the text to the center
+    • <h2>:
+        ◦ Font size: 30px
+        ◦ Height of the line: 50px
+        ◦ Space between letters: -1px
+        ◦ Text color: #DFBF84
+        ◦ All characters to be UPPERCASE
+        ◦ Align the text to the center
+    • <p>:
+        ◦ Font: 'Orienta'
+    • Use CSS import: @import url('https://fonts.googleapis.com/css2?family=Orienta&display=swap');
+        ◦ Generic Font: sans-serif
+        ◦ Font size: 16px
+        ◦ Height of the line: 24px
+        ◦ Text color: #f6f6f6
+        ◦ Align the text to the center
+*/

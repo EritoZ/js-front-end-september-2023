@@ -1,0 +1,22 @@
+main {
+    background-color: aqua;
+    border: solid 1px;
+    padding: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+    width: 700px;
+    height: 730px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.pics {
+    border: solid 1px;
+    display: block;
+}
+

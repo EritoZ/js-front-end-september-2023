@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+section {
+    border: #e6e6e6 solid 10px;
+    width: 451px;
+    padding: 12px;
+}
+
+h2 {
+    font: Merriweather;
+}
+
+button {
+    border: solid 2px gray;
+    font-family: Work Sans, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #d5384d;
+    border-radius: 0.2em;
+    padding: 0.2em 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description {
+    font-family: Georgia, Cambria, Times New Roman, Times;
+}

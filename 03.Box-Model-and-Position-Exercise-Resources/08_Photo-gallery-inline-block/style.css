@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 3em;
+    background-color: #eee;
+}
+
+ul {
+    text-align: center;
+    position: relative;
+}
+
+ul li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18rem;
+    margin: 1em;    
+}
+
+li img {
+    display: block;
+    border: solid 2px black;
+    padding: 0.5em;
+    width: 100%;
+    height: auto;
+}

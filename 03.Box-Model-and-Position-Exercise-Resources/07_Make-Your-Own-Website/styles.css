@@ -1,1 +1,30 @@
-/* TODO: style the html */
+* {
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    background-color: #0A2C48;
+    max-width: 33%;
+    padding: 1em 1em 1em 2em;
+    width: 325px;
+    border-radius: 4px;
+}
+
+div:hover {
+    background-color: #2A4C68;
+}
+
+h3 {
+    color: white;
+    font-size: medium;
+    margin-bottom: 1.25em;
+}
+
+p {
+    color: #c9d6ff;
+}

@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body, ul {
+    box-sizing: border-box;
+    margin: 2em;
+}
+
+article {
+    width: 66%;
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+p {
+    margin: 2em 0;
+}
+
+.img-container {
+    display: block;
+    width: 35rem;
+    margin: 2em 2em 2em 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    position: absolute;
+    top: 3%;
+    right: 2.5%;
+}

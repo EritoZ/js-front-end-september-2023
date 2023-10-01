@@ -31,11 +31,11 @@ img {
 }
 
 .blue-container {
-    background-color: lightblue;
+    background: linear-gradient(to right, rgb(19,91,163), rgb(64,207,162));
 }
 
 .red-pink-container {
-    background-color: pink;
+    background: linear-gradient(to right, rgb(171,51,122), rgb(204,131,28));
 }
 
 .link {

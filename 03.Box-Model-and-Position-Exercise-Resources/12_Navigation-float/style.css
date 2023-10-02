@@ -1,0 +1,98 @@
+body {
+    box-sizing: border-box;
+    margin: 5em;
+}
+
+aside {
+    float: right;
+    position: relative;
+    left: -3%;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+section h3 {
+    margin: 1em;
+}
+
+article {
+    width: 80%;
+    line-height: 20px;
+}
+
+img {
+    margin: 1em;
+    padding: 0.4em;
+    border: solid 2px;
+    box-shadow: 0px 0px 90px 10px rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote {
+    float: right;
+    width: 50%;
+    height: 90px;
+    border-left: 2px #ccc solid;
+    padding-left: 20px;
+    position: relative;
+    top: -12px;
+}
+
+blockquote p {
+    margin-top: 0;
+    font-style: italic;
+}
+
+blockquote footer {
+    text-align: right;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0.5em;
+}
+
+.nav-title {
+    border-bottom: solid 2px;
+}
+
+.nav-title ul li {
+    display: inline-block;
+}
+
+.head-nav {
+    position: absolute;
+    top: 8%;
+    right: 10%;
+}
+
+.head-nav li {
+    padding: 0.5em;
+}
+
+.aside-nav ul {
+    padding-left: 3em;
+}
+
+.heading-article {
+    margin-top: 2em;
+}
+.second-image {
+    float: right;
+    position: relative;
+    top: -14px;
+    width: 150px;
+    height: 200px;
+}
+
+.first-image {
+    float: left;
+    position: relative;
+    top: -14px;
+    margin-left: 0;
+}

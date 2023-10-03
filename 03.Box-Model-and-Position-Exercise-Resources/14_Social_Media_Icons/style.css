@@ -1,0 +1,37 @@
+nav ul {
+    border: solid 2px;
+    width: 450px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1.7em;
+    margin: 2em 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: initial;
+    font-size: x-large;
+    border-radius: 50%;
+}
+
+.facebook:hover {
+    color: darkblue;
+}
+
+.twitter:hover {
+    color: rgba(6, 144, 190, 0.527);
+}
+
+.google:hover {
+    color: crimson;
+}
+
+.linkdin:hover {
+    color: rgb(100, 108, 226);
+}
+
+.instagram:hover {
+    color: rgba(0, 81, 255, 0.479);
+}

@@ -1,0 +1,13 @@
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    font-size: 50px;
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+}
+
+img {
+    width: 98.8vw;
+    height: 97vh;
+}

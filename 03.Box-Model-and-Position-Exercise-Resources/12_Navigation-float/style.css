@@ -24,6 +24,8 @@ article {
 }
 
 img {
+    top: -16px;
+    position: relative;
     margin: 1em;
     padding: 0.4em;
     border: solid 2px;
@@ -84,15 +86,11 @@ blockquote footer {
 }
 .second-image {
     float: right;
-    position: relative;
-    top: -14px;
     width: 150px;
     height: 200px;
 }
 
 .first-image {
     float: left;
-    position: relative;
-    top: -14px;
     margin-left: 0;
 }

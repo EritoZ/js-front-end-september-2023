@@ -1,0 +1,22 @@
+body {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    max-width: 70vw;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+}
+
+section p {
+    line-height: 1.5em;
+}

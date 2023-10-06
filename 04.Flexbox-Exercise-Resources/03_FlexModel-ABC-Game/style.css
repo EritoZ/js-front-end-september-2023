@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 15vw;
+    height: 35rem;
+    align-items: center;
+    gap: 0.5em;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+span {
+    border: solid 1px;
+    padding: 0.9em 3em;
+}

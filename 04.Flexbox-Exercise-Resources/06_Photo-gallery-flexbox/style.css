@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, ul, li {
+    display: flex;
+}
+
+body {
+    justify-content: center;
+    margin: 3em;
+}
+
+section {
+    max-width: 50em;
+}
+
+ul {
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+li {
+    list-style: none;
+    border: solid 8px;
+    align-items: center;
+    flex: 1 1 200px;
+    padding: 2em 1em;
+    box-shadow: 2px 2px 50px 30px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

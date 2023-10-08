@@ -21,6 +21,7 @@ header {
 
 h1 {
     margin-left: 1em;
+    text-transform: uppercase;
 }
 
 main {
@@ -40,7 +41,6 @@ footer {
     display: flex;
     background-color: rgb(102, 102, 102);
     padding: 1em;
-    align-items:center;
 }
 
 footer p {

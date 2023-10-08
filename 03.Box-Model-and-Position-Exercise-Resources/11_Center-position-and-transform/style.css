@@ -11,7 +11,7 @@ body, html {
 }
 
 img {
-    border-radius: 5px 0 5px 0;
+    border-radius: 5px 5px 0 0;
 }
 
 h3 {
@@ -41,7 +41,6 @@ a {
     left: 50%;
     transform: translate(-50%, -60%);
     line-height: 2em;
-
 }
 
 .bottom-sect {

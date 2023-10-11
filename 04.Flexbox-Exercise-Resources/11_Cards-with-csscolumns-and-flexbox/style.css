@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    margin: 5em;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    width: 100%;
+}
+
+.cards-layout {
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55vw;
+    gap: 2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+    border: solid 0;
+    box-shadow: 0 0 2px 5px #ddd;
+}
+
+.card section, 
+.card footer {
+    padding: 1em;
+}
+
+.card section {
+    flex: 1 0 auto;
+}
+
+.card footer {
+    border-top: solid 2px #ddd;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}

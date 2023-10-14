@@ -26,7 +26,7 @@ h2 {
 .card {
     display: flex;
     flex-direction: column;
-    flex: 0 0 300px;
+    flex: 0 0 250px;
     border: solid 0;
     box-shadow: 0 0 2px 5px #ddd;
 }

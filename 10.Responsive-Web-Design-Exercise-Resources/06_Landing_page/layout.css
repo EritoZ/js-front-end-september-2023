@@ -1,0 +1,112 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+main {
+    flex: 1 1;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* h1 {
+    font-weight: 700;
+    font-size: 2em;
+} */
+
+.title-container {
+    max-width: 15em;
+}
+
+.title {
+    display: flex;
+    /* color: darkviolet;
+    font-size: 30px; */
+}
+
+.title-message {
+    /* font-size: 8px;
+    line-height: 20px;
+    text-transform: uppercase; */
+}
+
+nav {
+    min-width: 25em;
+    align-self: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.need-website {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5em 20em 5em 15em;
+}
+
+.need-website-text {
+    order: 1;
+    max-width: 20em;
+}
+
+.need-website img {
+    max-width: 20vh;
+    height: auto;
+    order: 2;
+}
+
+.our-team {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10em;
+}
+
+.our-team h1 {
+    align-self: center;
+}
+
+.our-team ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.our-team li {
+    display: flex;
+    flex-direction: column;
+    max-width: 20em;
+    align-items: center;
+}
+
+.our-team li img {
+    width: 100%;
+    height: auto;
+}
+
+.sign-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 0;
+    padding: 2em;
+}
+
+.sign-newsletter h1::after {
+    margin: 1em 0;
+    content: '';
+    border: 1px solid;
+    display: flex;
+    width: auto;
+}

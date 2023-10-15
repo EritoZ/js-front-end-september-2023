@@ -1,13 +1,16 @@
 header, footer  {
     display: flex;
     margin: 0 1em;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
 
 header {
     padding: 1em 0;
+}
+
+header label {
+    display: none;
 }
 
 main {
@@ -28,15 +31,6 @@ a {
     font-size: 2em;
 } */
 
-.title-container {
-    max-width: 15em;
-}
-
-.title {
-    display: flex;
-    /* color: darkviolet;
-    font-size: 30px; */
-}
 
 .title-message {
     /* font-size: 8px;
@@ -45,7 +39,7 @@ a {
 }
 
 nav {
-    min-width: 25em;
+    max-width: 25em;
     align-self: center;
 }
 
@@ -56,21 +50,38 @@ nav ul {
 
 footer {
     display: flex;
-    justify-content: space-around;
     padding: 2em;
     border-top: solid 3px #ccc;
     margin-top: 8em;
 }
 
 footer > * {
-    max-width: 30em;
-    flex: 1 1 200px;
+    max-width: 100em;
+}
+
+.nav-toggle {
+    display: none;
+    pointer-events: none;
 }
 
 .container {
     display: flex;
-    max-width: 50%;
+    width: 70%;
     justify-content: space-between;
+}
+
+.container > * {
+    flex: 1 1;
+}
+
+.title-container {
+    max-width: 15em;
+}
+
+.title {
+    display: flex;
+    /* color: darkviolet;
+    font-size: 30px; */
 }
 
 .need-website {
@@ -92,7 +103,8 @@ footer > * {
 }
 
 .need-website img {
-    max-width: 11vw;
+    width: auto;
+    height: 10em;
     padding-left: 2em;
     order: 2;
 }
@@ -109,7 +121,6 @@ footer > * {
     display: flex;
     flex-wrap: wrap;
     max-width: 40%;
-    justify-content: space-between;
 }
 
 .our-team li,
@@ -117,7 +128,7 @@ footer > * {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 33%;
+    max-width: 32%;
 }
 
 .our-team li img,
@@ -151,8 +162,14 @@ footer > * {
     flex-wrap: wrap;
 }
 
-.site-map ul {
-    flex-grow: 1;
+.site-map-sides {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.site-map-sides ul {
+    flex: 1 10;
 }
 
 .site-map h3 {

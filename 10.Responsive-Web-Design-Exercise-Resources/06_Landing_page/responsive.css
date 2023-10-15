@@ -1,0 +1,14 @@
+@media (max-width: 450px) {
+    body {
+        font-size: 10px;
+    }
+    nav {
+        display: none;
+    }
+
+    header label {
+        display: block;
+        align-self: center;
+        justify-self: end;
+    }
+}

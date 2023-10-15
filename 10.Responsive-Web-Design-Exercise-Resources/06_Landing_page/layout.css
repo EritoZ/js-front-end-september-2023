@@ -1,11 +1,17 @@
-header {
+header, footer  {
     display: flex;
-    justify-content: space-around;
+    margin: 0 1em;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
     padding: 1em 0;
 }
 
 main {
-    flex: 1 1;
+    flex: 1 1 100%;
 }
 
 li {
@@ -48,49 +54,74 @@ nav ul {
     justify-content: space-between;
 }
 
-.need-website {
+footer {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 5em 20em 5em 15em;
+    padding: 2em;
+    border-top: solid 3px #ccc;
+    margin-top: 8em;
+}
+
+footer > * {
+    max-width: 30em;
+    flex: 1 1 200px;
+}
+
+.container {
+    display: flex;
+    max-width: 50%;
+    justify-content: space-between;
+}
+
+.need-website {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.need-website-container {
+    display: flex;
+    max-width: 80%;
+    padding: 5em;
 }
 
 .need-website-text {
     order: 1;
-    max-width: 20em;
+    max-width: 40em;
+    height: auto;
 }
 
 .need-website img {
-    max-width: 20vh;
-    height: auto;
+    max-width: 11vw;
+    padding-left: 2em;
     order: 2;
 }
 
-.our-team {
+.our-team,
+.testimonials {
     display: flex;
     flex-direction: column;
-    margin: 0 10em;
-}
-
-.our-team h1 {
-    align-self: center;
-}
-
-.our-team ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-.our-team li {
-    display: flex;
-    flex-direction: column;
-    max-width: 20em;
     align-items: center;
 }
 
-.our-team li img {
+.our-team ul,
+.testimonials ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    justify-content: space-between;
+}
+
+.our-team li,
+.testimonials li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 33%;
+}
+
+.our-team li img,
+.testimonials li img {
     width: 100%;
     height: auto;
 }
@@ -103,10 +134,27 @@ nav ul {
     padding: 2em;
 }
 
-.sign-newsletter h1::after {
+.our-team h1::after,
+.sign-newsletter h1::after,
+.testimonials h1::after {
     margin: 1em 0;
     content: '';
     border: 1px solid;
+    display: block;
+    width: 35%;
+    position: relative;
+    left: 30%;
+}
+
+.site-map {
     display: flex;
-    width: auto;
+    flex-wrap: wrap;
+}
+
+.site-map ul {
+    flex-grow: 1;
+}
+
+.site-map h3 {
+    width: 100%;
 }

@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    margin: 2em;
+    background-color: #ddd;
+}
+
+section {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2em;
+}
+
+article {
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+section article {
+    flex: 1 1 30%;
+}
+
+article h2 {
+    font-size: small;
+}
+
+article h1 {
+    margin-bottom: 1em;
+}
+
+footer {
+    display: flex;
+    padding-top: 2em;
+    text-align: right;
+    justify-content: space-between;
+}
+
+footer img {
+    display: block;
+    position: relative;
+    top: -20%;
+}
+
+footer p {
+    display: block;
+    align-self: center;
+}
+
+footer > p {
+    color: #aaa;
+}
+
+.article-img img {
+    max-height: 200px;
+}
+
+.article-content {
+    margin: 1.5em;
+}
+
+.article-main {
+    border-bottom: solid 1px;
+    padding-bottom: 2em;
+}
+
+.article-main p {
+    color: #696969;
+    font-size: small;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 360px;
+}
+
+.profile-container {
+    display: flex;
+}
+
+.profile-container p {
+    margin-left: 0.5em;
+}

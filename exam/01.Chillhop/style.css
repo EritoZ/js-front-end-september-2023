@@ -27,14 +27,14 @@ article {
 
 h1 {
     margin: 0.5em 0;
-    font-size: 40px;
+    font-size: 42px;
     margin-top: 1em;
     color: white;
     font-weight: 300;
 }
 
 article > p {
-    text-indent: 2em;
+    text-indent: 3em;
     line-height: 1.8em;
     font-size: 20px;
 }
@@ -45,6 +45,7 @@ img {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 
 .buttons p {

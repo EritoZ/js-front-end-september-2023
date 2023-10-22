@@ -118,7 +118,7 @@ footer .footer-top > * {
 .header-bottom p {
     margin-top: 1em;
     line-height: 1.7em;
-    max-width: 45%;
+    max-width: 60%;
 }
 
 .goals {
@@ -126,7 +126,6 @@ footer .footer-top > * {
     justify-content: center;
     gap: 3em;
     margin-top: 5em;
-    margin-bottom: 5em;
     border-bottom: 1px solid #ccc;
 }
 

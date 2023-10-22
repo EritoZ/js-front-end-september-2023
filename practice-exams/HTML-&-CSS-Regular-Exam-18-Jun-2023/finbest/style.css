@@ -19,6 +19,10 @@ header {
     margin: 1em;
 }
 
+header li {
+    padding: 1em;
+}
+
 ul {
     gap: 2em;
 }
@@ -26,7 +30,6 @@ ul {
 li {
     list-style: none;
     display: block;
-    padding: 1em;
 }
 
 a {
@@ -92,8 +95,10 @@ section:nth-child(2n+1) {
     border-radius: 10px;
 }
 
+
 .section-2 .metrics {
     display: flex;
+    justify-content: center;
     width: 80%;
 }
 
@@ -132,7 +137,7 @@ section:nth-child(2n+1) {
 }
 
 .section-4 {
-    margin: 3em 0;
+    padding: 3em 0;
     gap: 1em;
     background-color: antiquewhite;
     padding-bottom: 3em;
@@ -149,6 +154,7 @@ section:nth-child(2n+1) {
     flex-direction: row;
     border-radius: 10px;
     border: 1px solid #ccc;
+    align-items: normal;
 }
 
 .prices {
@@ -159,9 +165,10 @@ section:nth-child(2n+1) {
     border-radius: 10px 0 0 10px;
 }
 
-.prices .pricing {
+.prices .pricing,
+.contact {
     flex: 1 1 33%;
-    padding: 2em;
+    padding: 0 2em;
     font-size: 12px;
 }
 
@@ -174,7 +181,7 @@ section:nth-child(2n+1) {
     margin-bottom: 1.5em;
 }
 
-.prices .pricing-top h4 {
+h4 {
     font-size: 16px;
     text-align: center;
 }
@@ -202,4 +209,17 @@ section:nth-child(2n+1) {
 }
 
 .contact {
+    margin-top: 2em;
+    padding: 0;
+}
+
+.contact h4 {
+    text-align: center;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contact a {
 }

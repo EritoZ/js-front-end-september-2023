@@ -9,6 +9,6 @@
     header label {
         display: block;
         align-self: center;
-        justify-self: end;
+        flex: none;
     }
 }

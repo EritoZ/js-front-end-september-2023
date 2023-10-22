@@ -128,7 +128,7 @@ footer > * {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 32%;
+    width: 33%;
 }
 
 .our-team li img,

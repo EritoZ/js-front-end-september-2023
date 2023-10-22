@@ -1,0 +1,10 @@
+@media screen and (max-width: 450px) {
+    body {
+        font-size: 10px;
+    }
+
+    table {
+        width: 90%;
+        height: 10%;
+    }
+}

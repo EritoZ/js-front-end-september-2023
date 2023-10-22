@@ -1,0 +1,29 @@
+body {
+    margin: 1em;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    padding: 0.5em;
+}
+
+table {
+    width: 50%;
+}
+
+th, td {
+    text-align: start;
+}
+
+thead tr {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(1) {
+    background-color: #eee;
+}

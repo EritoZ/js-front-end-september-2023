@@ -1,5 +1,5 @@
 function modernTimesOfHashtag(string) {
-    const regex = RegExp('#([a-z]+)(?: |$)', 'ig')
+    const regex = RegExp('#([a-z]+)(?:(?=#)| |$)', 'ig')
 
     const result = Array.from(string.matchAll(regex))
 

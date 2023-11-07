@@ -1,5 +1,5 @@
 function pascalCaseSplitter(string) {
-    const regex = RegExp('[A-Z].*?(?:(?=[A-Z])|$)', 'g')
+    const regex = RegExp('[A-Z][a-z]*', 'g')
 
     let matches = regex[Symbol.match](string)
 

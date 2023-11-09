@@ -10,7 +10,7 @@ function thePyramidOfKingDjoser(base, increment) {
     for (let i = base; i > 2; i -= 2) {
         step++;
         stone += (i - 2) ** 2 * increment;
-        height += increment
+        height += increment;
 
         const outerLayerAmount = (i * 4 - 4) * increment;
         if (step % 5 === 0) {

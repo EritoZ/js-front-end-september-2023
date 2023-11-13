@@ -1,4 +1,4 @@
-function validityChecker(array) {
+function pointsValidation(array){
     let [x1, y1, x2, y2] = array
     let firstSquareFirstPointToZero = 0 ** 2 + x1 ** 2;
     let secondSquareFirstPointToZero = 0 ** 2 + y1 ** 2;
@@ -41,5 +41,3 @@ function validityChecker(array) {
 
     console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is ${result}`)
 }
-
-validityChecker([3, 0, 0, 4])

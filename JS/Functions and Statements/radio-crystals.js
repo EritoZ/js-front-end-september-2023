@@ -5,7 +5,7 @@ function radioCrystals(array) {
         if (result < desiredThickness - 1) {
             return [crystal, counter]
         }
-        return processCrystalRecursion(operation(crystal), operation, desiredThickness, counter + 1)
+        return processCrystalRecursion(result, operation, desiredThickness, counter + 1)
     }
 
     const operationsDecrease = {
@@ -24,7 +24,6 @@ function radioCrystals(array) {
 
     for (let crystal of crystals) {
         console.log(`Processing chunk ${crystal} microns`)
-        let usedLaser = false
 
         for (const operation in operationsDecrease) {
             let [operationResult, repeated] = processCrystalRecursion(crystal, operationsDecrease[operation], finalThicknessGoal, 0)
@@ -39,7 +38,6 @@ function radioCrystals(array) {
 
             if (crystal < finalThicknessGoal) {
                 crystal = operationsIncreaseAndWash["X-ray"](crystal)
-                usedLaser = true
                 console.log('X-ray x1')
             }
 

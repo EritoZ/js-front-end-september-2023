@@ -5,9 +5,16 @@ function meetings(appointments) {
         const [day, person] = appointment.split(' ')
 
         if (day in meetings) {
-            console.log()
+            console.log(`Conflict on ${day}!`)
+        } else {
+            meetings[day] = person
+            console.log(`Scheduled for ${day}`)
         }
     }
+
+   for (const meeting in meetings) {
+       console.log(`${meeting} -> ${meetings[meeting]}`)
+   }
 }
 
 meetings(['Monday Peter',

@@ -49,4 +49,4 @@ function radioCrystals(array) {
     }
 }
 
-radioCrystals([1000, 4000, 8100])
+radioCrystals([1425, 12414556])

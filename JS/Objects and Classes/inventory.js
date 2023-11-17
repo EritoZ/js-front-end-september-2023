@@ -2,8 +2,7 @@ function inventory(arrayStrings) {
     let info = [];
 
     for (const heroInfo of arrayStrings) {
-        let [Hero, level, ...items] = heroInfo.split(' / ');
-        items = items[0];
+        let [Hero, level, items] = heroInfo.split(' / ');
 
         info.push({Hero, level, items});
     }

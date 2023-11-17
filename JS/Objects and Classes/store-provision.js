@@ -9,7 +9,7 @@ function storeProvision(stock, orderedProducts) {
         }
         shelf[combinedProducts[i]] += parseInt(combinedProducts[i + 1])
     }
-
+    
     for (const item in shelf) {
         console.log(`${item} -> ${shelf[item]}`)
     }

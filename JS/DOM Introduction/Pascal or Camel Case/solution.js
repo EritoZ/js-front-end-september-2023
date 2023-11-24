@@ -2,13 +2,13 @@ function solve() {
     let text = document.getElementById('text').value;
     const namingConvention = document.getElementById('naming-convention').value;
 
-    text = text.toLowerCase().trim()
+    text = text.toLowerCase().trim();
     text = text.split(' ');
-    let startIndex = 0
+    let startIndex = 0;
 
     switch (namingConvention) {
         case 'Camel Case':
-            startIndex = 1
+            startIndex = 1;
             break
 
         case 'Pascal Case':
@@ -20,10 +20,10 @@ function solve() {
     }
 
     for (let i = startIndex; i < text.length; i++) {
-        const word = text[i]
+        const word = text[i];
         text[i] = word[0].toUpperCase() + word.slice(1, word.length);
-        console.log(text[i])
+        console.log(text[i]);
     }
 
-    document.getElementById('result').textContent = text.join('')
+    document.getElementById('result').textContent = text.join('');
 }

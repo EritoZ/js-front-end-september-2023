@@ -3,7 +3,7 @@ function solve() {
     const result = document.getElementById('output');
     result.innerHTML = ''
 
-    let formatedText = textInput.value.split('.');
+    const formatedText = textInput.value.split('.');
 
     if (!formatedText[formatedText.length - 1]) {
         formatedText.pop();

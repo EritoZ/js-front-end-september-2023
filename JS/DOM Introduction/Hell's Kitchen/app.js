@@ -72,15 +72,14 @@ function solve() {
       }
 
       const input = document.querySelector('#inputs textarea');
-
-      const allRestaurants = new AllRestaurants();
+      const bestRestaurantOutput = document.querySelector('#bestRestaurant p');
+      const bestRestaurantWorkersOutput = document.querySelector('#workers p');
 
       const inputValue = JSON.parse(input.value);
 
-      allRestaurants.addRestaurants(inputValue);
+      const allRestaurants = new AllRestaurants();
 
-      const bestRestaurantOutput = document.querySelector('#bestRestaurant p');
-      const bestRestaurantWorkersOutput = document.querySelector('#workers p');
+      allRestaurants.addRestaurants(inputValue);
 
       const bestRestaurant = allRestaurants.getBestRestaurant();
 

@@ -20,6 +20,7 @@ function attachEvents() {
                 if (object.name === location) {
                     setCurrentForecast(object.code);
                     setUpcomingForecast(object.code);
+                    break;
                 }
             }
         }

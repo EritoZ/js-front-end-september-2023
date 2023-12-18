@@ -38,6 +38,9 @@ function loadMeals() {
 
                 listMeals.appendChild(clone);
             }
+
+
+
         })
         .catch()
 }
@@ -79,7 +82,7 @@ function editMeal(e) {
 }
 
 function changeMeal(e) {
-    const meal = listMeals.removeChild(e.currentTarget.parentNode.parentNode)
+    const meal = e.currentTarget.parentNode.parentNode
     const mealChildren = meal.children;
 
     for (let i = 0; i < 3; i++) {

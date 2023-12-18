@@ -30,17 +30,17 @@ function solve() {
 
         const pExpense = document.createElement('p');
         pExpense.textContent = `Type: ${expense.value}`;
-        pExpense.value = expense.value;
+        const pExpenseValue = expense.value;
         article.appendChild(pExpense);
 
         const pAmount = document.createElement('p');
         pAmount.textContent = `Amount: ${amount.value}$`;
-        pAmount.value = amount.value;
+        const pAmountValue = amount.value;
         article.appendChild(pAmount);
 
         const pDate = document.createElement('p');
         pDate.textContent = `Date: ${date.value}`;
-        pDate.value = date.value;
+        const pDateValue = date.value;
         article.appendChild(pDate);
 
         const divButtons = document.createElement('div');
@@ -67,34 +67,27 @@ function solve() {
         }
 
         buttonForm.disabled = true;
-    }
 
-    function editExpense(e) {
-        const article = e.currentTarget.parentNode.previousElementSibling;
-        const articleChildren = article.children;
+        function editExpense(e) {
 
-        for (let i = 0; i < 3; i++) {
-            inputs[i].value = articleChildren[i].value;
+            [expense.value, amount.value, date.value] = [pExpenseValue, pAmountValue, pDateValue]
+
+            ulPreviewList.removeChild(li);
+
+            buttonForm.disabled = false;
         }
 
-        const li = article.parentNode;
+        function confirmExpense(e) {
+            li.removeChild(li.lastElementChild);
 
-        ulPreviewList.removeChild(li);
+            ulExpensesList.appendChild(li);
 
-        buttonForm.disabled = false;
+            buttonForm.disabled = false;
+        }
     }
 
-    function confirmExpense(e) {
-        const li = ulPreviewList.removeChild(e.currentTarget.parentNode.parentNode);
-
-        li.removeChild(li.lastElementChild);
-
-        ulExpensesList.appendChild(li);
-
-        buttonForm.disabled = false;
-    }
 
     function deleteExpense(e) {
-        e.reload()
+        location.reload()
     }
 }

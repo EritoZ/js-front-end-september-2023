@@ -14,11 +14,10 @@ buttonLoadVacations.addEventListener("click", loadVacations);
 buttonAddVacation.addEventListener("click", addVacation);
 buttonEditVacation.addEventListener("click", editVacation);
 
-
 function loadVacations(e) {
     fetch(baseUrl)
         .then(p => p.json())
-        .then(data => {createVacations(data)})
+        .then(createVacations)
         .catch()
 
     function createVacations(data) {
